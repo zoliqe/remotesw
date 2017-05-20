@@ -1,0 +1,327 @@
+128,128,255,255,31,185,249,215,255,5
+for v in '128,128,255,255,31,185,249,215,255,5'.split(','): print(v + ": " + format(int(v), '#04X'))
+
+128: 0X80
+128: 0X80
+255: 0XFF
+255: 0XFF
+31: 0X1F
+185: 0XB9
+249: 0XF9
+215: 0XD7
+255: 0XFF
+5: 0X05
+
+
+remotesw.js:28 Received: HIGH
+
+remotesw.js:77 state=true
+remotesw.js:28 Received: T60:00
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:58
+
+remotesw.js:28 Received: QRG=5,128,128,255,255,31,185,249,215,
+T59:57
+
+remotesw.js:28 Received: QRG=255,5,128,128,255,255,31,185,249,
+T59:56
+
+remotesw.js:28 Received: QRG=215,255,5,128,128,255,255,31,185,
+T59:55
+
+remotesw.js:28 Received: QRG=249,215,255,5,128,128,255,255,31,
+T59:54
+
+remotesw.js:28 Received: QRG=185,249,215,255,5,128,128,255,255,
+T59:53
+
+remotesw.js:28 Received: QRG=31,185,249,215,255,5,128,128,255,
+T59:52
+
+remotesw.js:28 Received: QRG=255,31,185,249,215,255,5,128,128,
+T59:51
+
+remotesw.js:28 Received: QRG=255,255,31,185,249,215,255,5,128,
+T59:50
+
+remotesw.js:28 Received: QRG=128,255,255,31,185,249,215,255,5,
+T59:49
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:48
+
+remotesw.js:28 Received: QRG=5,128,128,255,255,31,185,249,215,
+T59:47
+
+remotesw.js:28 Received: QRG=255,5,128,128,255,255,31,185,249,
+T59:46
+
+remotesw.js:28 Received: QRG=215,255,5,128,128,255,255,31,185,
+T59:45
+
+remotesw.js:28 Received: QRG=249,215,255,5,128,128,255,255,31,
+T59:44
+
+remotesw.js:28 Received: QRG=185,249,215,255,5,128,128,255,255,
+T59:43
+
+remotesw.js:28 Received: QRG=31,185,249,215,255,5,128,128,255,
+T59:42
+
+remotesw.js:28 Received: QRG=255,31,185,249,215,255,5,128,128,
+T59:41
+
+remotesw.js:28 Received: QRG=255,255,31,185,249,215,255,5,128,
+T59:40
+
+remotesw.js:28 Received: QRG=128,255,255,31,185,249,215,255,5,
+T59:39
+
+remotesw.js:28 Received: QRG=128,128,248,249,31,185,249,215,255,
+T59:38
+
+remotesw.js:28 Received: QRG=5,128,128,255,255,31,185,249,215,
+T59:37
+
+remotesw.js:28 Received: QRG=255,5,128,128,255,255,31,185,249,
+T59:36
+
+remotesw.js:28 Received: QRG=215,255,5,128,128,255,255,31,185,
+T59:35
+
+remotesw.js:28 Received: QRG=249,215,255,5,128,128,255,255,31,
+T59:34
+
+remotesw.js:28 Received: QRG=185,249,215,255,5,128,128,255,255,
+T59:33
+
+remotesw.js:28 Received: QRG=31,185,249,215,255,5,128,128,255,
+T59:32
+
+remotesw.js:28 Received: QRG=255,31,185,249,215,255,5,128,128,
+T59:31
+
+remotesw.js:28 Received: QRG=255,255,31,185,249,215,255,5,128,
+T59:30
+
+remotesw.js:28 Received: QRG=128,255,255,31,185,249,215,255,5,
+T59:29
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:28
+
+remotesw.js:28 Received: QRG=5,128,128,255,255,31,185,249,215,
+T59:27
+
+remotesw.js:28 Received: QRG=255,5,128,128,255,255,31,185,249,
+T59:26
+
+remotesw.js:28 Received: QRG=215,255,5,128,128,255,255,31,185,
+T59:25
+
+remotesw.js:28 Received: QRG=249,215,255,5,128,128,255,255,31,
+T59:24
+
+remotesw.js:28 Received: QRG=185,249,215,255,5,128,128,255,255,
+T59:23
+
+remotesw.js:28 Received: QRG=31,185,249,215,255,5,128,128,255,
+T59:22
+
+remotesw.js:28 Received: QRG=255,31,185,249,215,255,5,128,128,
+T59:21
+
+remotesw.js:28 Received: QRG=255,255,31,185,249,215,255,5,128,
+T59:20
+
+remotesw.js:28 Received: QRG=128,255,255,31,185,249,215,255,5,
+T59:19
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:18
+
+remotesw.js:28 Received: QRG=5,128,128,255,255,31,185,249,215,
+T59:17
+
+remotesw.js:28 Received: QRG=255,5,128,128,248,249,31,185,249,
+T59:16
+
+remotesw.js:28 Received: QRG=215,255,5,128,128,255,255,31,185,
+T59:15
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:14
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:13
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:12
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:11
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:10
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:09
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:08
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:07
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:06
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:05
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:04
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:03
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:02
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:01
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T59:00
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:59
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:58
+
+remotesw.js:28 Received: QRG=5,128,128,255,255,31,185,249,215,
+T58:57
+
+remotesw.js:28 Received: QRG=255,5,128,128,248,249,31,185,249,
+T58:56
+
+remotesw.js:28 Received: QRG=215,255,5,128,128,255,255,31,185,
+T58:55
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:54
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:53
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:52
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:51
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:50
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:49
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:48
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:47
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:46
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:45
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:44
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:43
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:42
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:41
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:40
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:39
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:38
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:37
+
+remotesw.js:28 Received: QRG=128,128,248,249,31,185,249,215,255,
+T58:36
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:35
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:34
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:32
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:31
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:30
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:29
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:28
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:27
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:26
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:25
+
+remotesw.js:28 Received: QRG=128,128,255,255,31,185,249,215,255,
+T58:24
+
+remotesw.js:28 Received: QRG=5,128,128,255,255,31,185,249,215,
+T58:23
+
+remotesw.js:28 Received: QRG=255,5,128,128,255,255,31,185,249,
+T58:22
+
+remotesw.js:28 Received: QRG=215,255,5,128,128,255,255,31,185,
+T58:21
+
+remotesw.js:28 Received: QRG=249,215,255,5,128,128,255,255,31,
+T58:20
+
+remotesw.js:28 Received: QRG=185,249,215,255,5,128,128,255,255,
+T58:19
+
+remotesw.js:28 Received: QRG=31,185,249,215,255,5,128,128,255,
+T58:18
+
+remotesw.js:28 Received: QRG=255,31,185,249,215,255,5,128,128,
+T58:17
+
+remotesw.js:28 Received: QRG=255,255,31,185,249,215,255,5,128,
+T58:16
+
+remotesw.js:33 Receive error: NotFoundError: Device unavailable.

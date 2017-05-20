@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "/home/om4aa/arduino-1.8.2/libraries/",
+                "/home/om4aa/arduino-1.8.2/hardware/arduino/avr/libraries/",
+                "/home/om4aa/arduino-1.8.2/hardware/teensy/avr/libraries/",
+                "/home/om4aa/arduino-1.8.2/hardware/arduino/avr/cores/arduino"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/*"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ]
+}
