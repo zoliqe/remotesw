@@ -98,6 +98,7 @@ void iqrg() {
       len++;
     }
     Serial.println("");
+    Serial.flush();
     if (buff[4] == 0 || buff[4] == 3) {
       uint8_t MHZ_100 = (buff[8]);
       MHZ_100 = MHZ_100 - (((MHZ_100 / 16) * 6));

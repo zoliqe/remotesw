@@ -1,0 +1,114 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+--><html><head><link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/paper-item/paper-item.html">
+
+</head><body><dom-module id="switch-view">
+  <template>
+    <style>
+      paper-button {
+        font-size: 24pt;
+        font-weight: bold;
+        color: white;
+        margin: 5px;
+      }
+
+      paper-button.on {
+        background-color: var(--paper-green-500);
+        border-radius: 35px;
+        border-width: 5px;
+        border-color: #373;
+        border-style: solid;
+      }
+      paper-button.on:hover {
+        background-color: var(--paper-green-400);
+      }
+
+      paper-button.off {
+        background-color: var(--paper-red-800);
+        border-radius: 90px;
+        padding: 60px 0 60px 0;
+        border-width: 10px;
+        border-color: #622;
+        border-style: solid;
+      }
+      paper-button.off:hover {
+        background-color: var(--paper-red-700);
+      }
+      paper-button.off[disabled] {
+        background-color: #300;
+      }
+
+      .time {
+        padding: 10px;
+        font-size: 28pt;
+        font-weight: bold;
+      }
+
+      paper-item {
+        padding: 10px;
+        justify-content: center;
+      }
+    </style>
+
+    <!--<h1>Controls</h1>-->
+    <paper-item>
+      <paper-button raised="" on-tap="powerOn" class="on">[[onText]]</paper-button>
+    </paper-item>
+    <paper-item>
+      <span class="time">[[time]]</span>
+    </paper-item>
+    <paper-item>
+      <paper-button raised="" on-tap="powerOff" class="off" disabled="[[!state]]">STOP</paper-button> <!--disabled="![[state]]"-->
+    </paper-item>
+  </template>
+
+  <script>
+    class SwitchView extends Polymer.Element {
+      
+      static get is() { return 'switch-view'; }
+
+      static get properties() {
+        return {
+          time: {type: String},
+          state: {type: Boolean, notify: true}
+        };
+      }
+
+      static get observers() {
+        return ['_stateChanged(state)'];
+      }
+
+      constructor() {
+        super();
+        this.onText = "Start";
+        // this.state = false;
+      }
+
+      powerOff() {
+        this.state = false;
+        // this.onText = "Start";
+      }
+
+      powerOn() {
+        this.state = true;
+        // this.onText = "Reset Counter";
+      }
+
+      _stateChanged(state) {
+        this.state = state;
+        this.onText = state ? "Reset Counter" : "Start";
+      }
+    }
+
+    window.customElements.define(SwitchView.is, SwitchView);
+  </script>
+</dom-module>
+</body></html>

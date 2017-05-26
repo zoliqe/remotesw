@@ -1,0 +1,21 @@
+{
+  "name": "Hamshack Power RemoteSwitch",
+  "short_name": "RemoteSwitch",
+  "start_url": "/remotesw/?homescreen=1",
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_color": "#041d48",
+  "background_color": "#041d48",
+  "icons": [
+    {
+      "src": "images/manifest/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/manifest/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
